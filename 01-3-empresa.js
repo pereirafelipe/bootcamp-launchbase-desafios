@@ -1,6 +1,3 @@
-// programa que amazena os dados da empresa
-// construção de objetos
-
 const usuario = {
     nome: "Diego",
     empresa: {

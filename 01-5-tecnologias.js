@@ -1,6 +1,3 @@
-// Manuseia funções, metodos
-// e estrutura de repetições
-
 const usuarios = [
     {nome: 'Carlos', tencnologias: ["HTML", "CSS"]},
     {nome: 'Jasmine', tencnologias: ["JavaScript", "CSS"]},

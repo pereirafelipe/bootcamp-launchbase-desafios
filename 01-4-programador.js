@@ -1,5 +1,3 @@
-// manuseira vetores e objetos
-
 const dadosProgramador = {
     nome: "Carlos",
     idade: 32,
