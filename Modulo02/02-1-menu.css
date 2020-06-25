@@ -8,8 +8,8 @@ header{
     font-family: 'Roboto', sans-serif;
     background-color: #6A5ACD;
     padding: 30px;
-    border-bottom 1px;
-    text-align: center;
+    border-bottom: 1px;
+    left: 10px;
 }
 
 header a {
@@ -18,12 +18,20 @@ header a {
     font-size: 20px;
     line-height: 30px;
     margin: 0 30px; 
+    position: relative;
+    left: 180px;
 }
 
 header img {
     width: 80px;
     height: 80px;
     position: absolute;
-    left: 30px;
+    left: 130px;
     top: 10px;
+}
+
+header a:hover {
+    color: #D3D3D3;
+    transition: 400ms;
+
 }
