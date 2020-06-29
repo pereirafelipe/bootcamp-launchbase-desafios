@@ -65,12 +65,14 @@ header button {
     position: relative;
     left: 1190px;
     bottom: 58px;
+    cursor: pointer;
 
 }
 
 header button:hover{
     background-color:#F0F8FF;
     transition: 400ms;
+    
 }
 
 .info {
@@ -233,6 +235,12 @@ footer a:hover{
     border-radius: 10px;
     cursor: pointer;
     
+}
+
+.card:hover{
+
+    border: solid 3px #778899;
+    transition: 400ms;
 }
 
 .card_image img {
