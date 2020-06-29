@@ -1,3 +1,7 @@
+:root{
+    --color-roxo: #6A5ACD;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +14,7 @@ body{
 
 header{
     
-    background-color: #6A5ACD;
+    background-color: var(--color-roxo);
     padding: 30px;
     border-bottom: 1px;
     left: 10px;
@@ -21,11 +25,12 @@ header{
 header a {
     color: white ; 
     text-decoration: none;  
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20px;
-    margin: 0 30px; 
+    margin: 0 25px; 
     position: relative;
     left: 220px;
+
 }
 
 header img {
@@ -47,7 +52,7 @@ header button {
     margin-top: 10px;
     background-color: white ;
     font-weight: bold 50px;
-    color: #6A5ACD;
+    color: var(--color-roxo);
     border-radius: 7px;
     text-align: center;
     width: 100px;
@@ -102,7 +107,7 @@ header button:hover{
 
 .info button {
     margin-top: 10px;
-    background-color: #6A5ACD;
+    background-color: var(--color-roxo);
     font-weight: bold 50px;
     color: white;
     border-radius: 7px;
@@ -119,12 +124,12 @@ header button:hover{
     background-color: blanchedalmond;
     transition: 400ms;
 }
-.card a {
+.social a {
     /* padding: 5px; */
-    bottom: 16px;
+    bottom: 20px;
 }
 
-.card a img{
+.social a img{
     width: 50px;
     height: 20px;
     left: 700px; 
@@ -159,7 +164,7 @@ header button:hover{
 
 .container {
         
-    background-color: #6A5ACD;
+    background-color: var(--color-roxo);
     padding: 10px;
     border-bottom: 1px;
     left: 10px;
@@ -206,4 +211,96 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     transition: 400ms;
+}
+
+/* CARDS */
+
+.cards{
+    max-width: 1450px;
+    height: 650px;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+    
+  
+}
+
+.card{
+    background-color: #483D8B;
+    padding: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.card_image img {
+    margin: 200px 150px 25px 150px ;
+}
+ .card_info{
+    margin: 15px auto 0 auto;
+    line-height: 30px;
+    font-size: 20px;
+    max-width: 350px;
+    text-align: center;
+    color: white;
+
+}
+
+/* MODAL */
+
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal{
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    
+}
+.modal .maximize-modal{
+
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    cursor: pointer;
+}
+
+/* MODAL.ACTIVE */
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+}
+
+.modal.active{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+      
 }
