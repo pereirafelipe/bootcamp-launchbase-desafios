@@ -70,7 +70,7 @@ header button {
 }
 
 header button:hover{
-    background-color:#F0F8FF;
+    background-color: #D3D3D3;
     transition: 400ms;
     
 }
@@ -120,10 +120,11 @@ header button:hover{
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .info button:hover{
-    background-color: blanchedalmond;
+    background-color: #9370DB;
     transition: 400ms;
 }
 .social a {
@@ -223,21 +224,26 @@ footer a:hover{
     height: 650px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px; 
-    margin: 3px;
+    gap: 10px;
+    margin: 15px;
 
   
 }
 
 .card{
     background-color: #483D8B;
-    padding: 5px;
+
     border-radius: 10px;
     cursor: pointer;
-    width: 425px;
-    margin: 15px auto;
+    display: grid;
     
-    
+}
+
+.card_image {
+    /* position: relative;
+    top: 50%;
+    left: 110px; */
+    margin: 50% auto 0 auto;
 }
 
 
@@ -249,16 +255,14 @@ footer a:hover{
 
 
 
-.card_image img {
-    margin: 200px 25% 25px 25% ;
-}
  .card_info{
-    margin: 15px auto 0 auto;
+    margin: 0 auto 0 auto;
     line-height: 30px;
     font-size: 20px;
     max-width: 350px;
     text-align: center;
     color: white;
+    
 
 }
 

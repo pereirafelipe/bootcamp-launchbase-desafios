@@ -7,8 +7,7 @@ for (let card of cards){
     card.addEventListener("click", function(){
         const paginaId = card.getAttribute("id")
         modalOverlay.classList.add('active');
-        modalOverlay.querySelector("iframe").src=`https://rocketseat.com.br/${paginaId}`
-        
+        modalOverlay.querySelector("iframe").src=`https://rocketseat.com.br/${paginaId}`        
 
 
     })
