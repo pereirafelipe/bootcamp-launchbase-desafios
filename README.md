@@ -1,1 +1,1 @@
-Desafios do primeiro módulo do Bootcamp Launchbase rocket
+Atividades propostas para o desenvolvimento e aplicação dos conhecimentos adquiridos dentro do Bootcamp. Esse projeto serve como treino e será atualizado na medida que houver novos desafios, com novas funcionalidades.
