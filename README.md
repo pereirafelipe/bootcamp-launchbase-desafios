@@ -23,8 +23,6 @@
 - <a href="https://www.javascript.com/" style="text-decoration: none; font-size: 16px; color: #fff;" >JavaScrit </a>
 - <a href="https://reactnative.dev/" style="text-decoration: none; font-size: 16px; color: #fff;" >CSS</a>
 
-## Divirta-se! Rumo ao próximo nível! 🚀🚀
-
 
 ## Autor:
 
@@ -47,7 +45,8 @@ Feito  por Felipe Pereiura❤️
 
 Este projeto está licenciado sob a licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
   
-  
+
+## Divirta-se! Rumo ao próximo nível! 🚀🚀  
 
 
 
